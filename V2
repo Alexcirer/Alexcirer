@@ -1,0 +1,179 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "RG4 HUB | V2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--Tabs
+
+local Tab1 = Window:MakeTab({
+	Name = "Admins",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab2 = Window:MakeTab({
+	Name = "Hubs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "Games",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab4 = Window:MakeTab({
+	Name = "PVP",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab5 = Window:MakeTab({
+	Name = "Simple Gui",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--Sections
+
+local Section = Tab1:AddSection({
+	Name = "Best Admins Gui"
+})
+
+local Section = Tab2:AddSection({
+	Name = "Hubs (OP)"
+})
+
+local Section = Tab3:AddSection({
+	Name = "Games Scripts"
+})
+
+local Section = Tab4:AddSection({
+	Name = "Scripts for PVP"
+})
+
+local Section = Tab5:AddSection({
+	Name = "Simple Guis"
+})
+
+--Admins
+
+Tab1:AddButton({
+	Name = "QuirkyCMD FE admin",
+	Callback = function()
+loadstring(game:HttpGet("https://gist.github.com/someunknowndude/38cecea5be9d75cb743eac8b1eaf6758/raw"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "C00lgui admin panel",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/apanel", true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab1:AddButton({
+	Name = "Chat Admin",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/game-hax/uca/main/release/uca.min.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+
+Tab1:AddButton({
+	Name = "Nameless Admin",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+      		print("button pressed")
+  	end    
+})
+
+--Hubs
+
+Tab2:AddButton({
+	Name = "Ez Hub",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "VG Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "simpli hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/roburox/s1mple/main/load.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Cool hub",
+	Callback = function()
+loadstring(game:HttpGet("https://gist.github.com/someunknowndude/38cecea5be9d75cb743eac8b1eaf6758/raw"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "simple hub gui",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/C00lHamoot/Rhbt/72237f14420cd93789275afb6f94a4ba72bffa76/Hi"))()
+      		print("button pressed")
+  	end    
+})
+
+--Games
+
+Tab3:AddButton({
+	Name = "Blade Ball Autowin",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DrakainnnDL/Script/main/BB1'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Prison Life admin commands",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/Tigeradmin"))()
+      		print("button pressed")
+  	end    
+})
+
+--PVP
+
+Tab4:AddButton({
+	Name = "Hitbox Expander",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+--Guis
+
+Tab5:AddButton({
+	Name = "Fly Gui V3",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Chat Hax (OP)",
+	Callback = function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/LeoVerem14/Chat-haxx/main/Main")))()
+      		print("button pressed")
+  	end    
+})
