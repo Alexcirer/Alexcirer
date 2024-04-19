@@ -1,0 +1,356 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "BlueRed Hub | Universal V11", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--Tabs
+
+local Tab1 = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://10723415903",
+	PremiumOnly = false
+})
+
+local Tab2 = Window:MakeTab({
+	Name = "Muder Mystery",
+	Icon = "rbxassetid://10734934585",
+	PremiumOnly = false
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "Natural Disaster",
+	Icon = "rbxassetid://10734934585",
+	PremiumOnly = false
+})
+
+local Tab4 = Window:MakeTab({
+	Name = "Legends Of Speed",
+	Icon = "rbxassetid://10734934585",
+	PremiumOnly = false
+})
+
+local Tab5 = Window:MakeTab({
+	Name = "Blade Ball",
+	Icon = "rbxassetid://10734934585",
+	PremiumOnly = false
+})
+
+local Tab6 = Window:MakeTab({
+	Name = "Da Hood",
+	Icon = "rbxassetid://10734934585",
+	PremiumOnly = false
+})
+
+local Tab7 = Window:MakeTab({
+	Name = "Extra Scriprs",
+	Icon = "rbxassetid://10734934585",
+	PremiumOnly = false
+})
+
+local Tab8 = Window:MakeTab({
+	Name = "Jailbreak",
+	Icon = "rbxassetid://10734934585",
+	PremiumOnly = false
+})
+
+local Tab9 = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://10734934585",
+	PremiumOnly = false
+})
+
+local Tab10 = Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://10734934585",
+	PremiumOnly = false
+})
+
+--Sections
+
+local Section = Tab1:AddSection({
+	Name = "Created By Shife"
+})
+
+local Section = Tab1:AddSection({
+	Name = "@ShifeScripter In Youtube!"
+})
+
+local Section = Tab2:AddSection({
+	Name = "Muder Mystery Scripts"
+})
+
+local Section = Tab3:AddSection({
+	Name = "Natural Disaster Scripts"
+})
+
+local Section = Tab4:AddSection({
+	Name = "Legends Of Speed Scripts"
+})
+
+local Section = Tab5:AddSection({
+	Name = "Blade Ball Scripts"
+})
+
+local Section = Tab6:AddSection({
+	Name = "Da Hood Scripts"
+})
+
+local Section = Tab7:AddSection({
+	Name = "Others Scripts"
+})
+
+local Section = Tab8:AddSection({
+	Name = "Jailbreak Scripts"
+})
+
+local Section = Tab9:AddSection({
+	Name = "Arsenal Scripts"
+})
+
+local Section = Tab10:AddSection({
+	Name = "Doors Scripts"
+})
+
+--Buttons Tab 1 main
+
+Tab1:AddButton({
+	Name = "Copy Discord Server",
+	Callback = function()
+	setclipboard("https://discord.com/invite/2PwqdcFKuE")
+      		print("Copy Discord Server")
+  	end    
+})
+
+--Buttons Tab 2 mm2
+
+Tab2:AddButton({
+	Name = "Muder Mystery Script 1",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0Murder'))()
+      		print("MM2 Script 1")
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Muder Mystery Script 2",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/xqzqxUYq"))()
+      		print("MM2 Script 2")
+  	end    
+})
+
+--Buttons Tab 3 Natural
+
+Tab3:AddButton({
+	Name = "Natural Disaster Script 1",
+	Callback = function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/SIX-MENU/SIX-HUB-NATURAL-DESASTRE")()
+      		print("Script 1")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Natural Disaster Script 2",
+	Callback = function()
+	loadstring(game:HttpGet('https://weinzspace.com/cata/hub.lua'))()
+      		print("Script 2")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Natural Disaster Script 3",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/StupidProAArsenal/UniqueHub/main/UniqueHubv2Intro', true))()
+      		print("Script 3")
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Natural Disaster Script 4",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/stuffman0001/CanHub/main/Code"))()
+      		print("Script 4")
+  	end    
+})
+
+--Buttons Tab4 Legends Speed
+
+Tab4:AddButton({
+	Name = "Legends Of Speed Script 1",
+	Callback = function()
+	game:GetService("ReplicatedStorage").cPetShopRemote:InvokeServer(game:GetService("ReplicatedStorage").cPetShopFolder:FindFirstChild(petname))
+      		print("Script 1")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Legends Of Speed Script 2",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+      		print("Script 2")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Legends Of Speed Script 3 (ByShife)",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/xa2vDTCc"))()
+      		print("Script 3")
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "Legends Of Speed Script 4",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHublegendsofspeed"))()
+      		print("Script 4")
+  	end    
+})
+
+--Buttons Blade Ball
+
+Tab5:AddButton({
+	Name = "Blade Ball Script 1",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/w2QjDTcF"))()
+      		print("Script 1")
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Blade Ball Script 2",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/dBGjm0Lv"))()
+      		print("Script 2")
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Blade Ball Script 3",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/FL71vYPT"))()
+      		print("Script 3")
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Blade Ball Script 4",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/E07Wyg7L"))()
+      		print("Script 4")
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Blade Ball Script 5",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/5iREx/script/main/Blade%20Ball'))()
+      		print("Script 5")
+  	end    
+})
+
+--buttons hold
+
+Tab6:AddButton({
+	Name = "Da Hood Script 1",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+      		print("Script 1")
+  	end    
+})
+
+Tab6:AddButton({
+	Name = "Da Hood Script 2",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/patrickhackplus/oxhub/main/kidsinmybasement'))()
+      		print("Script 1")
+  	end    
+})
+
+--buttons extra scripts
+
+Tab7:AddButton({
+	Name = "Shife Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Alexzzv/Alexzzv/main/Lop"))()
+      		print("Script 1")
+  	end    
+})
+
+Tab7:AddButton({
+	Name = "Spanish Hub (KEY)",
+	Callback = function()
+	loadstring(game:HttpGet("https://paste.myconan.net/489493.txt"))()
+      		print("Script 1")
+  	end    
+})
+
+Tab7:AddButton({
+	Name = "Fly Gui V3",
+	Callback = function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+      		print("Script 1")
+  	end    
+})
+
+--Jailbreak Scripts
+
+Tab8:AddButton({
+	Name = "Jailbreak Script 1",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/paid2'))()
+      		print("Script 1")
+  	end    
+})
+
+Tab8:AddButton({
+	Name = "Jailbreak Script 2",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/JailMonkey.lua"))()
+      		print("Script 2")
+  	end    
+})
+
+--Arsenal Scripts
+
+Tab9:AddButton({
+	Name = "Arsenal Script 1",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Arsenalscript.txt"))()
+      		print("Script 1")
+  	end    
+})
+
+Tab9:AddButton({
+	Name = "Arsenal Script 2",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))()
+      		print("Script 2")
+  	end    
+})
+
+
+Tab9:AddButton({
+	Name = "Arsenal Script 3",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))()
+      		print("Script 3")
+  	end    
+})
+
+Tab9:AddButton({
+	Name = "Arsenal Script 4",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/D8rkX/D8rk-Hub/main/Arsenal%20Scripts/Hubs-Extras/Melee%20Hub%20V1.lua",true))()
+      		print("Script 4")
+  	end    
+})
+
+--Doors Scripts
+
+Tab10:AddButton({
+	Name = "Doors Script 1",
+	Callback = function()
+	loadstring(game:HttpGet("https://pst.innomi.net/paste/dw8uteaxwdb4ga9kyuf9hcga/raw"))()
+      		print("Script 1")
+  	end    
+})
