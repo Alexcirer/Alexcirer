@@ -114,7 +114,7 @@ end)
 
 -- Funci贸n del bot贸n "Get Key" para copiar el enlace
 GetKeyBtn.MouseButton1Click:Connect(function()
-    setclipboard("https://cuty.io/4PLoG")
+    setclipboard("https://link-unlock.com/getkey")
     print("Link copied to clipboard!")
 
     -- Mostrar el mensaje en la caja de texto
